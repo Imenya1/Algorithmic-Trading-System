@@ -1,0 +1,89 @@
+# Instrument configuration.
+# Source: Build Order v3.4, Section 8 "Instrument parameter sets".
+# Every value the detectors depend on lives here; detector source code hard-codes none of them.
+#
+# Adding a symbol or timeframe is a configuration-only change (Build Order Section 4,
+# "New symbol onboarding"). Do NOT add instruments outside the v3.4 scope (V75, V100, V50)
+# to this file; the scalability test uses a temporary configuration instead.
+
+# point_size = price units per broker point. Build Order Section 8 gives the EQH/EQL tolerance
+# floor in POINTS while prices and ATR are in PRICE UNITS, so a conversion is mandatory.
+# The Build Order does not state the point size (Open Decision 8: read it from the terminal;
+# V75 tick size is explicitly unresolved). The values below are PROVISIONAL: chosen so that the
+# Section 8 spread / zone-width / Stops Level values have consistent proportions to the ATR
+# measured in data/*.csv across the three symbols. Replace with the broker-confirmed values.
+instruments:
+  V75:
+    htf: H1
+    htf_swing_n: 2
+    ltf: M5
+    ltf_swing_n: 2
+    # EQH/EQL tolerance from Build Order Section 8: max(fixed_points, atr_mult * ATR(14))
+    eqh_eql_tolerance_points: 716
+    eqh_eql_tolerance_atr_mult: 0.10
+    point_size: 0.01   # PROVISIONAL / UNCONFIRMED (Open Decision 8) - see note below
+  V100:
+    htf: M15
+    htf_swing_n: 3
+    ltf: M3
+    ltf_swing_n: 2
+    eqh_eql_tolerance_points: 12
+    eqh_eql_tolerance_atr_mult: 0.10
+    point_size: 0.01   # PROVISIONAL / UNCONFIRMED (Open Decision 8) - see note below
+  V50:
+    htf: H1
+    htf_swing_n: 2
+    ltf: M15
+    ltf_swing_n: 2
+    eqh_eql_tolerance_points: 115
+    eqh_eql_tolerance_atr_mult: 0.12
+    point_size: 0.0001   # PROVISIONAL / UNCONFIRMED (Open Decision 8) - see note below
+
+data:
+  # What Candle.time means in the supplied OHLC data.
+  #   open  : timestamp is the bar OPEN time (MT5 / Deriv history convention). The candle
+  #           closes at time + timeframe duration, and that is the swing confirmation time.
+  #   close : timestamp is already the bar CLOSE time.
+  # UNRESOLVED ASSUMPTION: the Build Order does not state which convention the data uses.
+  # Confirm against the real Deriv export before relying on confirmation times.
+  candle_time: open
+
+detectors:
+  swing:
+    # What to do when a candle does not follow its predecessor by exactly one timeframe
+    # (one or more candles are missing). Gaps can be genuine (platform maintenance, no ticks)
+    # and backfilling is the ingestion layer's job, so the detector never stops for a gap.
+    #   bridge : (default) treat the next candle as the next bar in sequence and continue.
+    #            Swings whose n-bar window spans a gap carry spans_gap, gap_missing_bars and
+    #            gap_status ('confirmed' if upstream marked the gap as backfill-attempted-and-
+    #            failed via Candle.gap_confirmed, otherwise 'unverified'). Any gap size.
+    #   reset  : record the gap, clear the fractal window and continue (swings near the gap lost)
+    #   error  : strict mode, raise GapError and leave detector state untouched
+    # Each (symbol, timeframe) handles its own gaps; a gap in one never affects another.
+    gap_policy: bridge
+
+    # How equal highs/lows are treated when deciding a pivot. Build Order v3.4 is silent on ties.
+    #   strict : (default) the pivot must be strictly beyond all n bars on BOTH sides.
+    #   mt5    : MetaTrader 5 Fractals convention: strictly beyond the n bars AFTER the pivot,
+    #            equal-or-beyond the n bars BEFORE it. With n=2 this reproduces the MT5
+    #            Fractals indicator. Past-only and non-repainting either way.
+    # Changing this changes which swings exist, so it changes every downstream result.
+    tie_rule: strict
+
+  eqh_eql:
+    # Rules implemented from Build Order v3.4 Section 8 + Section 9:
+    #   - tolerance = max(eqh_eql_tolerance_points * point_size, eqh_eql_tolerance_atr_mult * ATR(14))  [price units]
+    #   - confirmed at confirmation of the second swing (min touch count = 2)
+    #   - output event: EQ_CLUSTER with side, level, inner_edge, touch_count, age
+    #   - ATR period = 14
+    #
+    # UNRESOLVED (not present in Build Order or Research Spec in storage):
+    #   - exact clustering algorithm for >2 touches (current: any prior same-side swing
+    #     within tolerance of the newest forms a cluster with it)
+    #   - minimum spacing between swings (none applied)
+    #   - precise definitions of "level", "inner edge", "age" (see code comments)
+    #   - whether spread participates in the equality test (not used)
+    #   - ATR smoothing method (Wilder vs SMA) — Wilder used as standard ATR
+    atr_period: 14
+    min_touches: 2
+    max_swings_kept: 500

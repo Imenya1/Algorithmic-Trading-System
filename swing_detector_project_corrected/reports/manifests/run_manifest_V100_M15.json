@@ -1,0 +1,41 @@
+{
+  "code_version": "0.2.0-phase2-swing-audited",
+  "dataset_hash": "7de025af0a073715",
+  "configuration_hash": "9cc29c3ceb782dc7",
+  "random_seed": 20261652,
+  "date_range": [
+    "2024-01-01T00:00:00",
+    "2024-07-27T07:45:00"
+  ],
+  "symbol": "V100",
+  "timeframe": "M15",
+  "detector_parameters": {
+    "n": 3,
+    "candle_time": "open",
+    "gap_policy": "bridge"
+  },
+  "data_origin": "SYNTHETIC random walk - not market data",
+  "test_results": {},
+  "performance_benchmark": {
+    "symbol": "V100",
+    "timeframe": "M15",
+    "candles": 20000,
+    "repeats": 5,
+    "median_candles_per_sec": 166629.79565862895,
+    "min_candles_per_sec": 164324.76489227204,
+    "max_candles_per_sec": 168351.38280410122,
+    "python": "3.13.18",
+    "platform": "Linux-6.18.44-fc-v653-x86_64-with-glibc2.39"
+  },
+  "regression_snapshot_ref": "swing_V100_M15.json",
+  "review_set_ref": null,
+  "review_seed": null,
+  "visual_review_status": "pending - no developer sign-off recorded",
+  "visual_signoff": null,
+  "outstanding_validation_issues": [
+    "No real market data supplied",
+    "No reference-labelled sample supplied",
+    "Developer visual sign-off not recorded"
+  ],
+  "created_at": "2026-11-19T01:19:22.405203+00:00"
+}

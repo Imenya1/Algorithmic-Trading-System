@@ -1,0 +1,27 @@
+# Instrument configuration for Swing Detector
+# Source: Build Order v3.4 Section 8 + writing-block.md starting configuration
+# Parameters are configurable; detector source code does not hard-code them.
+
+instruments:
+  V75:
+    htf: H1
+    htf_swing_n: 3
+    ltf: M5
+    ltf_swing_n: 2
+  V100:
+    htf: M15
+    htf_swing_n: 3
+    ltf: M3
+    ltf_swing_n: 2
+  V50:
+    htf: H1
+    htf_swing_n: 3
+    ltf: M15
+    ltf_swing_n: 2
+
+# Global detector defaults (can be overridden per instrument)
+defaults:
+  swing:
+    # n is taken from the instrument table above
+    # No minimum_leg is defined in the governing documents → left unresolved
+    pass

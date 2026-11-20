@@ -1,0 +1,67 @@
+{
+  "code_version": "0.2.0-phase2-swing-audited",
+  "dataset_hash": "208027ce94c88b28",
+  "configuration_hash": "9cc29c3ceb782dc7",
+  "random_seed": null,
+  "date_range": [
+    "2026-08-18T00:00:00",
+    "2026-11-16T21:18:00"
+  ],
+  "symbol": "V100",
+  "timeframe": "M3",
+  "detector_parameters": {
+    "n": 2,
+    "candle_time": "open",
+    "gap_policy": "bridge"
+  },
+  "data_origin": "Real data supplied by project owner: V100_M3.csv (sha256 prefix in dataset_hash)",
+  "test_results": {},
+  "performance_benchmark": {
+    "symbol": "V100",
+    "timeframe": "M3",
+    "candles": 43624,
+    "repeats": 3,
+    "median_candles_per_sec": 222281.43975149095,
+    "min_candles_per_sec": 196855.33262974914,
+    "max_candles_per_sec": 224249.59699817066,
+    "python": "3.13.18",
+    "platform": "Linux-6.18.44-fc-v653-x86_64-with-glibc2.39"
+  },
+  "regression_snapshot_ref": "snapshots_real/swing_V100_M3.json",
+  "review_set_ref": null,
+  "review_seed": null,
+  "visual_review_status": "signed off: accepted",
+  "visual_signoff": {
+    "reviewer": "Ime Edet Nya",
+    "second_reviewer": null,
+    "date": "2026-11-19",
+    "windows_inspected": [
+      {
+        "source": "final_results.zip charts: last 150 bars of this stream",
+        "stream": "V100/M3"
+      },
+      {
+        "source": "owner's own local run (run_all output/*_chart.png, default last-180-bar chart) on the same CSV",
+        "stream": "V100/M3"
+      }
+    ],
+    "defects": [],
+    "decision": "accepted"
+  },
+  "outstanding_validation_issues": [
+    "Reference-labelled precision/recall not performed (no labels supplied)",
+    "Train/validation/holdout split not defined; all supplied data used for this run",
+    "Parameter sweep not performed",
+    "Real-vs-baseline comparison not performed"
+  ],
+  "waivers": [
+    {
+      "requirement": "Metrics stable across yearly slices",
+      "waived_by": "Ime Edet Nya",
+      "date": "2026-11-19",
+      "reason": "Owner waived. Supplied data covers about 90 days of a single year (2026-08-18 to 2026-11-16), so yearly stability cannot be assessed.",
+      "status": "WAIVED (not passed)"
+    }
+  ],
+  "created_at": "2026-11-19T11:19:14.164914+00:00"
+}

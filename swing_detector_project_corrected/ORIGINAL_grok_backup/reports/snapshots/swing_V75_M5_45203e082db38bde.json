@@ -1,0 +1,1113 @@
+[
+  {
+    "confirmation_time": "2024-01-01T00:45:00",
+    "payload": {
+      "bar_index": 7,
+      "price": 975.9080482692439,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_HIGH"
+  },
+  {
+    "confirmation_time": "2024-01-01T00:45:00",
+    "payload": {
+      "bar_index": 7,
+      "price": 948.4532604315202,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_LOW"
+  },
+  {
+    "confirmation_time": "2024-01-01T01:15:00",
+    "payload": {
+      "bar_index": 13,
+      "price": 954.9779986813246,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_LOW"
+  },
+  {
+    "confirmation_time": "2024-01-01T01:25:00",
+    "payload": {
+      "bar_index": 15,
+      "price": 989.6430819076787,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_HIGH"
+  },
+  {
+    "confirmation_time": "2024-01-01T01:50:00",
+    "payload": {
+      "bar_index": 20,
+      "price": 1016.0553668771826,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_HIGH"
+  },
+  {
+    "confirmation_time": "2024-01-01T02:05:00",
+    "payload": {
+      "bar_index": 23,
+      "price": 986.3580141655534,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_LOW"
+  },
+  {
+    "confirmation_time": "2024-01-01T02:20:00",
+    "payload": {
+      "bar_index": 26,
+      "price": 1039.4181895137508,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_HIGH"
+  },
+  {
+    "confirmation_time": "2024-01-01T02:30:00",
+    "payload": {
+      "bar_index": 28,
+      "price": 1022.6659558351978,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_LOW"
+  },
+  {
+    "confirmation_time": "2024-01-01T02:45:00",
+    "payload": {
+      "bar_index": 31,
+      "price": 1063.419325833561,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_HIGH"
+  },
+  {
+    "confirmation_time": "2024-01-01T03:05:00",
+    "payload": {
+      "bar_index": 35,
+      "price": 1041.950407848767,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_LOW"
+  },
+  {
+    "confirmation_time": "2024-01-01T03:35:00",
+    "payload": {
+      "bar_index": 41,
+      "price": 1100.9138798679098,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_HIGH"
+  },
+  {
+    "confirmation_time": "2024-01-01T03:50:00",
+    "payload": {
+      "bar_index": 44,
+      "price": 1066.3254857808,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_LOW"
+  },
+  {
+    "confirmation_time": "2024-01-01T03:55:00",
+    "payload": {
+      "bar_index": 45,
+      "price": 1091.399000143229,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_HIGH"
+  },
+  {
+    "confirmation_time": "2024-01-01T04:10:00",
+    "payload": {
+      "bar_index": 48,
+      "price": 1095.6071181392915,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_HIGH"
+  },
+  {
+    "confirmation_time": "2024-01-01T04:40:00",
+    "payload": {
+      "bar_index": 54,
+      "price": 1052.337088108029,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_HIGH"
+  },
+  {
+    "confirmation_time": "2024-01-01T05:00:00",
+    "payload": {
+      "bar_index": 58,
+      "price": 995.9818400550538,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_LOW"
+  },
+  {
+    "confirmation_time": "2024-01-01T05:10:00",
+    "payload": {
+      "bar_index": 60,
+      "price": 1024.8651028029117,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_HIGH"
+  },
+  {
+    "confirmation_time": "2024-01-01T05:25:00",
+    "payload": {
+      "bar_index": 63,
+      "price": 1004.1002280904871,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_LOW"
+  },
+  {
+    "confirmation_time": "2024-01-01T05:50:00",
+    "payload": {
+      "bar_index": 68,
+      "price": 1034.790496149518,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_HIGH"
+  },
+  {
+    "confirmation_time": "2024-01-01T05:50:00",
+    "payload": {
+      "bar_index": 68,
+      "price": 1011.5227827089323,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_LOW"
+  },
+  {
+    "confirmation_time": "2024-01-01T06:25:00",
+    "payload": {
+      "bar_index": 75,
+      "price": 986.3341277795884,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_LOW"
+  },
+  {
+    "confirmation_time": "2024-01-01T06:40:00",
+    "payload": {
+      "bar_index": 78,
+      "price": 1013.9319728210442,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_HIGH"
+  },
+  {
+    "confirmation_time": "2024-01-01T06:55:00",
+    "payload": {
+      "bar_index": 81,
+      "price": 966.8462046159776,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_LOW"
+  },
+  {
+    "confirmation_time": "2024-01-01T08:10:00",
+    "payload": {
+      "bar_index": 96,
+      "price": 1097.1161357454457,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_HIGH"
+  },
+  {
+    "confirmation_time": "2024-01-01T08:15:00",
+    "payload": {
+      "bar_index": 97,
+      "price": 1060.8277887589802,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_LOW"
+  },
+  {
+    "confirmation_time": "2024-01-01T08:40:00",
+    "payload": {
+      "bar_index": 102,
+      "price": 1054.9730557743187,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_LOW"
+  },
+  {
+    "confirmation_time": "2024-01-01T08:55:00",
+    "payload": {
+      "bar_index": 105,
+      "price": 1086.8787141300425,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_HIGH"
+  },
+  {
+    "confirmation_time": "2024-01-01T09:15:00",
+    "payload": {
+      "bar_index": 109,
+      "price": 1029.5997608810778,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_LOW"
+  },
+  {
+    "confirmation_time": "2024-01-01T09:45:00",
+    "payload": {
+      "bar_index": 115,
+      "price": 1126.1251989849552,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_HIGH"
+  },
+  {
+    "confirmation_time": "2024-01-01T10:00:00",
+    "payload": {
+      "bar_index": 118,
+      "price": 1133.9189123972772,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_HIGH"
+  },
+  {
+    "confirmation_time": "2024-01-01T10:40:00",
+    "payload": {
+      "bar_index": 126,
+      "price": 1070.7834890061542,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_LOW"
+  },
+  {
+    "confirmation_time": "2024-01-01T10:55:00",
+    "payload": {
+      "bar_index": 129,
+      "price": 1081.6351313735947,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_HIGH"
+  },
+  {
+    "confirmation_time": "2024-01-01T11:15:00",
+    "payload": {
+      "bar_index": 133,
+      "price": 1074.5877108876093,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_HIGH"
+  },
+  {
+    "confirmation_time": "2024-01-01T11:15:00",
+    "payload": {
+      "bar_index": 133,
+      "price": 1037.18239363407,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_LOW"
+  },
+  {
+    "confirmation_time": "2024-01-01T12:05:00",
+    "payload": {
+      "bar_index": 143,
+      "price": 1047.8090107027417,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_HIGH"
+  },
+  {
+    "confirmation_time": "2024-01-01T12:10:00",
+    "payload": {
+      "bar_index": 144,
+      "price": 1019.4301952976759,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_LOW"
+  },
+  {
+    "confirmation_time": "2024-01-01T12:20:00",
+    "payload": {
+      "bar_index": 146,
+      "price": 1044.396934976159,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_HIGH"
+  },
+  {
+    "confirmation_time": "2024-01-01T12:40:00",
+    "payload": {
+      "bar_index": 150,
+      "price": 1016.1485487401277,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_LOW"
+  },
+  {
+    "confirmation_time": "2024-01-01T12:55:00",
+    "payload": {
+      "bar_index": 153,
+      "price": 1050.4335214396062,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_HIGH"
+  },
+  {
+    "confirmation_time": "2024-01-01T12:55:00",
+    "payload": {
+      "bar_index": 153,
+      "price": 1021.7621446564436,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_LOW"
+  },
+  {
+    "confirmation_time": "2024-01-01T13:35:00",
+    "payload": {
+      "bar_index": 161,
+      "price": 1051.7550735960322,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_HIGH"
+  },
+  {
+    "confirmation_time": "2024-01-01T13:50:00",
+    "payload": {
+      "bar_index": 164,
+      "price": 1027.854503751352,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_HIGH"
+  },
+  {
+    "confirmation_time": "2024-01-01T13:55:00",
+    "payload": {
+      "bar_index": 165,
+      "price": 992.5977226992677,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_LOW"
+  },
+  {
+    "confirmation_time": "2024-01-01T14:15:00",
+    "payload": {
+      "bar_index": 169,
+      "price": 1013.1903747584271,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_HIGH"
+  },
+  {
+    "confirmation_time": "2024-01-01T14:30:00",
+    "payload": {
+      "bar_index": 172,
+      "price": 992.8819737544652,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_LOW"
+  },
+  {
+    "confirmation_time": "2024-01-01T15:00:00",
+    "payload": {
+      "bar_index": 178,
+      "price": 1070.162770239515,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_HIGH"
+  },
+  {
+    "confirmation_time": "2024-01-01T15:15:00",
+    "payload": {
+      "bar_index": 181,
+      "price": 1023.9933661590948,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_LOW"
+  },
+  {
+    "confirmation_time": "2024-01-01T15:30:00",
+    "payload": {
+      "bar_index": 184,
+      "price": 1040.873634061048,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_HIGH"
+  },
+  {
+    "confirmation_time": "2024-01-01T15:30:00",
+    "payload": {
+      "bar_index": 184,
+      "price": 1008.2656908167712,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_LOW"
+  },
+  {
+    "confirmation_time": "2024-01-01T15:45:00",
+    "payload": {
+      "bar_index": 187,
+      "price": 1053.9546297925783,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_HIGH"
+  },
+  {
+    "confirmation_time": "2024-01-01T16:05:00",
+    "payload": {
+      "bar_index": 191,
+      "price": 1046.4652722382014,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_HIGH"
+  },
+  {
+    "confirmation_time": "2024-01-01T16:05:00",
+    "payload": {
+      "bar_index": 191,
+      "price": 1021.585388514045,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_LOW"
+  },
+  {
+    "confirmation_time": "2024-01-01T16:25:00",
+    "payload": {
+      "bar_index": 195,
+      "price": 1019.7645982818966,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_LOW"
+  },
+  {
+    "confirmation_time": "2024-01-01T16:40:00",
+    "payload": {
+      "bar_index": 198,
+      "price": 1047.4466180574059,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_HIGH"
+  },
+  {
+    "confirmation_time": "2024-01-01T17:15:00",
+    "payload": {
+      "bar_index": 205,
+      "price": 1058.0250664564392,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_HIGH"
+  },
+  {
+    "confirmation_time": "2024-01-01T17:15:00",
+    "payload": {
+      "bar_index": 205,
+      "price": 1027.494985329618,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_LOW"
+  },
+  {
+    "confirmation_time": "2024-01-01T17:40:00",
+    "payload": {
+      "bar_index": 210,
+      "price": 1018.5002180651423,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_LOW"
+  },
+  {
+    "confirmation_time": "2024-01-01T18:00:00",
+    "payload": {
+      "bar_index": 214,
+      "price": 1042.5200372610495,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_HIGH"
+  },
+  {
+    "confirmation_time": "2024-01-01T18:25:00",
+    "payload": {
+      "bar_index": 219,
+      "price": 1038.3878621182864,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_HIGH"
+  },
+  {
+    "confirmation_time": "2024-01-01T18:25:00",
+    "payload": {
+      "bar_index": 219,
+      "price": 1006.1346878400171,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_LOW"
+  },
+  {
+    "confirmation_time": "2024-01-01T18:40:00",
+    "payload": {
+      "bar_index": 222,
+      "price": 1003.2205147020339,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_LOW"
+  },
+  {
+    "confirmation_time": "2024-01-01T19:05:00",
+    "payload": {
+      "bar_index": 227,
+      "price": 1026.8413190624083,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_LOW"
+  },
+  {
+    "confirmation_time": "2024-01-01T19:45:00",
+    "payload": {
+      "bar_index": 235,
+      "price": 1054.7476321580361,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_LOW"
+  },
+  {
+    "confirmation_time": "2024-01-01T20:10:00",
+    "payload": {
+      "bar_index": 240,
+      "price": 1144.6029413394451,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_HIGH"
+  },
+  {
+    "confirmation_time": "2024-01-01T20:25:00",
+    "payload": {
+      "bar_index": 243,
+      "price": 1145.1164850209875,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_HIGH"
+  },
+  {
+    "confirmation_time": "2024-01-01T20:50:00",
+    "payload": {
+      "bar_index": 248,
+      "price": 1091.8016751672553,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_LOW"
+  },
+  {
+    "confirmation_time": "2024-01-01T21:05:00",
+    "payload": {
+      "bar_index": 251,
+      "price": 1101.0858949345916,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_LOW"
+  },
+  {
+    "confirmation_time": "2024-01-01T21:35:00",
+    "payload": {
+      "bar_index": 257,
+      "price": 1120.04262566472,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_LOW"
+  },
+  {
+    "confirmation_time": "2024-01-01T22:45:00",
+    "payload": {
+      "bar_index": 271,
+      "price": 1219.2943159771978,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_HIGH"
+  },
+  {
+    "confirmation_time": "2024-01-01T22:55:00",
+    "payload": {
+      "bar_index": 273,
+      "price": 1192.689324087185,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_LOW"
+  },
+  {
+    "confirmation_time": "2024-01-01T23:15:00",
+    "payload": {
+      "bar_index": 277,
+      "price": 1198.725277025247,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_LOW"
+  },
+  {
+    "confirmation_time": "2024-01-01T23:25:00",
+    "payload": {
+      "bar_index": 279,
+      "price": 1262.9811506530878,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_HIGH"
+  },
+  {
+    "confirmation_time": "2024-01-01T23:35:00",
+    "payload": {
+      "bar_index": 281,
+      "price": 1227.8303102113891,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_LOW"
+  },
+  {
+    "confirmation_time": "2024-01-02T00:00:00",
+    "payload": {
+      "bar_index": 286,
+      "price": 1254.6101168027917,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_HIGH"
+  },
+  {
+    "confirmation_time": "2024-01-02T00:25:00",
+    "payload": {
+      "bar_index": 291,
+      "price": 1163.5257970876735,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_LOW"
+  },
+  {
+    "confirmation_time": "2024-01-02T00:35:00",
+    "payload": {
+      "bar_index": 293,
+      "price": 1187.587136757578,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_HIGH"
+  },
+  {
+    "confirmation_time": "2024-01-02T00:55:00",
+    "payload": {
+      "bar_index": 297,
+      "price": 1164.0751852246203,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_HIGH"
+  },
+  {
+    "confirmation_time": "2024-01-02T01:10:00",
+    "payload": {
+      "bar_index": 300,
+      "price": 1110.335795193086,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_LOW"
+  },
+  {
+    "confirmation_time": "2024-01-02T01:30:00",
+    "payload": {
+      "bar_index": 304,
+      "price": 1103.7673717618202,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_LOW"
+  },
+  {
+    "confirmation_time": "2024-01-02T01:40:00",
+    "payload": {
+      "bar_index": 306,
+      "price": 1155.621857462392,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_HIGH"
+  },
+  {
+    "confirmation_time": "2024-01-02T01:55:00",
+    "payload": {
+      "bar_index": 309,
+      "price": 1157.5673667892634,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_HIGH"
+  },
+  {
+    "confirmation_time": "2024-01-02T02:10:00",
+    "payload": {
+      "bar_index": 312,
+      "price": 1117.7206363542377,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_LOW"
+  },
+  {
+    "confirmation_time": "2024-01-02T02:20:00",
+    "payload": {
+      "bar_index": 314,
+      "price": 1161.6752076304508,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_HIGH"
+  },
+  {
+    "confirmation_time": "2024-01-02T02:40:00",
+    "payload": {
+      "bar_index": 318,
+      "price": 1160.8330396054691,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_HIGH"
+  },
+  {
+    "confirmation_time": "2024-01-02T03:20:00",
+    "payload": {
+      "bar_index": 326,
+      "price": 1063.2934898535395,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_LOW"
+  },
+  {
+    "confirmation_time": "2024-01-02T03:30:00",
+    "payload": {
+      "bar_index": 328,
+      "price": 1101.1575607256439,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_HIGH"
+  },
+  {
+    "confirmation_time": "2024-01-02T03:55:00",
+    "payload": {
+      "bar_index": 333,
+      "price": 1032.8736770734718,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_LOW"
+  },
+  {
+    "confirmation_time": "2024-01-02T04:30:00",
+    "payload": {
+      "bar_index": 340,
+      "price": 1080.5907824281373,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_LOW"
+  },
+  {
+    "confirmation_time": "2024-01-02T04:40:00",
+    "payload": {
+      "bar_index": 342,
+      "price": 1120.7789403014774,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_HIGH"
+  },
+  {
+    "confirmation_time": "2024-01-02T05:10:00",
+    "payload": {
+      "bar_index": 348,
+      "price": 1118.192380691992,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_HIGH"
+  },
+  {
+    "confirmation_time": "2024-01-02T05:45:00",
+    "payload": {
+      "bar_index": 355,
+      "price": 1088.1801317745917,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_HIGH"
+  },
+  {
+    "confirmation_time": "2024-01-02T05:45:00",
+    "payload": {
+      "bar_index": 355,
+      "price": 1054.9327935386898,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_LOW"
+  },
+  {
+    "confirmation_time": "2024-01-02T06:55:00",
+    "payload": {
+      "bar_index": 369,
+      "price": 961.695378127025,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_LOW"
+  },
+  {
+    "confirmation_time": "2024-01-02T07:10:00",
+    "payload": {
+      "bar_index": 372,
+      "price": 971.1069227008401,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_HIGH"
+  },
+  {
+    "confirmation_time": "2024-01-02T07:20:00",
+    "payload": {
+      "bar_index": 374,
+      "price": 936.5511584541889,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_LOW"
+  },
+  {
+    "confirmation_time": "2024-01-02T07:55:00",
+    "payload": {
+      "bar_index": 381,
+      "price": 978.4102101157696,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_HIGH"
+  },
+  {
+    "confirmation_time": "2024-01-02T08:05:00",
+    "payload": {
+      "bar_index": 383,
+      "price": 944.8940900936988,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_LOW"
+  },
+  {
+    "confirmation_time": "2024-01-02T08:20:00",
+    "payload": {
+      "bar_index": 386,
+      "price": 971.252774144028,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_HIGH"
+  },
+  {
+    "confirmation_time": "2024-01-02T08:50:00",
+    "payload": {
+      "bar_index": 392,
+      "price": 966.8568091092284,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_HIGH"
+  },
+  {
+    "confirmation_time": "2024-01-02T08:50:00",
+    "payload": {
+      "bar_index": 392,
+      "price": 933.5427002692164,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_LOW"
+  },
+  {
+    "confirmation_time": "2024-01-02T09:15:00",
+    "payload": {
+      "bar_index": 397,
+      "price": 978.9033229929311,
+      "timeframe": "M5"
+    },
+    "symbol": "V75",
+    "timeframe": "M5",
+    "type": "SWING_HIGH"
+  }
+]

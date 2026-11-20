@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "symbol": "V75",
+  "timeframe": "M5",
+  "seed": 20261118,
+  "review_until": "2024-02-25T13:20:00",
+  "window_bars": 120,
+  "windows": [
+    {
+      "kind": "largest_range_bar",
+      "centre_bar": 68,
+      "first_bar": 8,
+      "last_bar": 127
+    },
+    {
+      "kind": "largest_range_bar",
+      "centre_bar": 61,
+      "first_bar": 1,
+      "last_bar": 120
+    },
+    {
+      "kind": "largest_range_bar",
+      "centre_bar": 287,
+      "first_bar": 227,
+      "last_bar": 346
+    },
+    {
+      "kind": "largest_range_bar",
+      "centre_bar": 372,
+      "first_bar": 312,
+      "last_bar": 431
+    },
+    {
+      "kind": "largest_range_bar",
+      "centre_bar": 2,
+      "first_bar": 0,
+      "last_bar": 119
+    },
+    {
+      "kind": "year_first_bars",
+      "year": 2024,
+      "first_bar": 0,
+      "last_bar": 119
+    },
+    {
+      "kind": "year_last_bars",
+      "year": 2024,
+      "first_bar": 15881,
+      "last_bar": 16000
+    },
+    {
+      "kind": "random",
+      "centre_bar": 3338,
+      "first_bar": 3278,
+      "last_bar": 3397
+    },
+    {
+      "kind": "random",
+      "centre_bar": 5617,
+      "first_bar": 5557,
+      "last_bar": 5676
+    },
+    {
+      "kind": "random",
+      "centre_bar": 10750,
+      "first_bar": 10690,
+      "last_bar": 10809
+    },
+    {
+      "kind": "random",
+      "centre_bar": 13610,
+      "first_bar": 13550,
+      "last_bar": 13669
+    },
+    {
+      "kind": "random",
+      "centre_bar": 14766,
+      "first_bar": 14706,
+      "last_bar": 14825
+    }
+  ],
+  "largest_disagreement_windows": "pending: no reference-labelled sample available"
+}

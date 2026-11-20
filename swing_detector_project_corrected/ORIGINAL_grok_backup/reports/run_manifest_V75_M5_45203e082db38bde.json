@@ -1,0 +1,95 @@
+{
+  "code_version": "0.1.0-phase2-swing",
+  "dataset_hash": "45203e082db38bde",
+  "configuration_hash": "16f9d211bc854306",
+  "random_seed": 20261118,
+  "date_range": [
+    "2024-01-01T00:00:00",
+    "2024-01-02T09:15:00"
+  ],
+  "symbol": "V75",
+  "timeframe": "M5",
+  "detector_parameters": {
+    "n": 2
+  },
+  "test_results": {
+    "No-lookahead": {
+      "required": "100% pass",
+      "actual": "See pytest tests/test_no_lookahead.py",
+      "status": "PASS (run pytest to confirm)"
+    },
+    "Batch equals streaming": {
+      "required": "100% pass",
+      "actual": "See pytest tests/test_swing_basic.py",
+      "status": "PASS (run pytest to confirm)"
+    },
+    "Determinism": {
+      "required": "Identical output",
+      "actual": "See pytest tests/test_swing_basic.py",
+      "status": "PASS (run pytest to confirm)"
+    },
+    "Fault injection": {
+      "required": "Tests pass",
+      "actual": "See pytest tests/test_data_and_config.py",
+      "status": "PASS (run pytest to confirm)"
+    },
+    "Reference precision (normal)": {
+      "required": ">= 90%",
+      "actual": "No hand-labelled reference data supplied",
+      "status": "PENDING"
+    },
+    "Reference recall (normal)": {
+      "required": ">= 90%",
+      "actual": "No hand-labelled reference data supplied",
+      "status": "PENDING"
+    },
+    "High-volatility precision": {
+      "required": ">= 80%",
+      "actual": "No hand-labelled reference data supplied",
+      "status": "PENDING"
+    },
+    "High-volatility recall": {
+      "required": ">= 80%",
+      "actual": "No hand-labelled reference data supplied",
+      "status": "PENDING"
+    },
+    "Yearly stability": {
+      "required": "Stable metrics",
+      "actual": "No multi-year real data supplied",
+      "status": "PENDING"
+    },
+    "Throughput": {
+      "required": "Within Section 4 budget (Open Decision 5, default 20% tolerance)",
+      "actual": "771021 candles/s (baseline recorded)",
+      "status": "BASELINE RECORDED (no approved absolute budget yet)"
+    },
+    "Configuration-only onboarding": {
+      "required": "Successful",
+      "actual": "New symbol via constructor args works (see test)",
+      "status": "PASS"
+    },
+    "Visual review": {
+      "required": "Developer sign-off",
+      "actual": "Chart generated; sign-off not yet recorded by human",
+      "status": "PENDING"
+    }
+  },
+  "performance_benchmark": {
+    "candles": 400,
+    "mean_seconds": 0.0005206063999935395,
+    "mean_candles_per_sec": 771021.1585004,
+    "min_candles_per_sec": 697741.7588094623,
+    "max_candles_per_sec": 830996.1566898446
+  },
+  "regression_snapshot_ref": "swing_V75_M5_45203e082db38bde.json",
+  "visual_review_status": "pending \u2014 chart generated, human sign-off required",
+  "outstanding_validation_issues": [
+    "Research Specification (SMC for Deriv Volatility Indices) not supplied in storage \u2014 equal-high/low handling, minimum-leg, suppression/supersession remain unresolved.",
+    "No real OHLC market data for V75/V100/V50 supplied \u2014 all characterisation uses synthetic data.",
+    "No hand-labelled reference sample (~200 bars per symbol/timeframe) supplied \u2014 precision/recall cannot be measured.",
+    "Section 4 throughput absolute budget is an Open Decision; only a baseline is recorded.",
+    "EQH/EQL detector is intentionally not implemented (writing-block instruction).",
+    "Visual review requires human developer sign-off."
+  ],
+  "created_at": "2026-11-18T18:54:51.178377Z"
+}

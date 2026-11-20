@@ -1,0 +1,68 @@
+{
+  "V75|H1": {
+    "symbol": "V75",
+    "timeframe": "H1",
+    "candles": 20000,
+    "repeats": 5,
+    "median_candles_per_sec": 164824.97013902146,
+    "min_candles_per_sec": 128011.82870260488,
+    "max_candles_per_sec": 171306.10713985658,
+    "python": "3.13.18",
+    "platform": "Linux-6.18.44-fc-v653-x86_64-with-glibc2.39"
+  },
+  "V75|M5": {
+    "symbol": "V75",
+    "timeframe": "M5",
+    "candles": 20000,
+    "repeats": 5,
+    "median_candles_per_sec": 157063.20455807794,
+    "min_candles_per_sec": 121968.87599447744,
+    "max_candles_per_sec": 167337.188174168,
+    "python": "3.13.18",
+    "platform": "Linux-6.18.44-fc-v653-x86_64-with-glibc2.39"
+  },
+  "V100|M15": {
+    "symbol": "V100",
+    "timeframe": "M15",
+    "candles": 20000,
+    "repeats": 5,
+    "median_candles_per_sec": 172814.6993693869,
+    "min_candles_per_sec": 171451.67870615088,
+    "max_candles_per_sec": 173894.7195112364,
+    "python": "3.13.18",
+    "platform": "Linux-6.18.44-fc-v653-x86_64-with-glibc2.39"
+  },
+  "V100|M3": {
+    "symbol": "V100",
+    "timeframe": "M3",
+    "candles": 20000,
+    "repeats": 5,
+    "median_candles_per_sec": 173933.1274609823,
+    "min_candles_per_sec": 172151.70400663555,
+    "max_candles_per_sec": 174926.30944959415,
+    "python": "3.13.18",
+    "platform": "Linux-6.18.44-fc-v653-x86_64-with-glibc2.39"
+  },
+  "V50|H1": {
+    "symbol": "V50",
+    "timeframe": "H1",
+    "candles": 20000,
+    "repeats": 5,
+    "median_candles_per_sec": 172987.1605382651,
+    "min_candles_per_sec": 102409.07675404345,
+    "max_candles_per_sec": 173841.36188243024,
+    "python": "3.13.18",
+    "platform": "Linux-6.18.44-fc-v653-x86_64-with-glibc2.39"
+  },
+  "V50|M15": {
+    "symbol": "V50",
+    "timeframe": "M15",
+    "candles": 20000,
+    "repeats": 5,
+    "median_candles_per_sec": 168597.7402237558,
+    "min_candles_per_sec": 165782.18280197599,
+    "max_candles_per_sec": 169196.83758579817,
+    "python": "3.13.18",
+    "platform": "Linux-6.18.44-fc-v653-x86_64-with-glibc2.39"
+  }
+}
